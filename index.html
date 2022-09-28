@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY - Feel The Music!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul> 
+            <li class="brand"><img src="logo.png" alt="SPOTIFY"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h3><span style="font-size: 60px;padding-left: 10px;padding-top: 20px;">Trending Now</span></h3>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img class="songitemimg" src="cover.jpg" alt="1" width="30" height="30">
+                    <span class="songname">Its You</span>
+                    <span class="songlistplay"><span class="timestamp">03:45 &nbsp; &nbsp; <i id="0" class="fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img class="songitemimg" src="cover.jpg" alt="1" width="30" height="30">
+                    <span class="songname">Its You</span>
+                    <span class="songlistplay"><span class="timestamp">03:45  &nbsp; &nbsp; <i id="1" class="fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img class="songitemimg" src="cover.jpg" alt="1" width="30" height="30">
+                    <span class="songname">Its You</span>
+                    <span class="songlistplay"><span class="timestamp">03:45  &nbsp; &nbsp; <i id="2" class="fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img class="songitemimg" src="cover.jpg" alt="1" width="30" height="30">
+                    <span class="songname">Its You</span>
+                    <span class="songlistplay"><span class="timestamp">03:45 &nbsp; &nbsp; <i id="3" class="fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img class="songitemimg" src="cover.jpg" alt="1" width="30" height="30">
+                    <span class="songname">Its You</span>
+                    <span class="songlistplay"><span class="timestamp">03:45  &nbsp; &nbsp; <i id="4" class="fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img class="songitemimg" src="cover.jpg" alt="1" width="30" height="30">
+                    <span class="songname">Its You</span>
+                    <span class="songlistplay"><span class="timestamp">03:45  &nbsp; &nbsp; <i id="5" class="fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img class="songitemimg" src="cover.jpg" alt="1" width="30" height="30">
+                    <span class="songname">Its You</span>
+                    <span class="songlistplay"><span class="timestamp">03:45 &nbsp; &nbsp; <i id="6" class="fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img class="songitemimg" src="cover.jpg" alt="1" width="30" height="30">
+                    <span class="songname">Its You</span>
+                    <span class="songlistplay"><span class="timestamp">03:45  &nbsp; &nbsp; <i id="7" class="fa-regular fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100" >
+        <div class="icons" style="font-size:larger">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-backward" id="previous"></i>&nbsp;&nbsp;
+            <i class="fa-regular fa-circle-play" id="masterPlay"></i>&nbsp;&nbsp;
+            <i class="fa-solid fa-forward" id="next"></i>
+            
+        </div>
+        <div class="songinfo">
+            
+            <div style="padding-top:10%;position:relative;" ><iframe src="https://gifer.com/embed/QChA" id="gif" width="20%" height="20%" style='position:absolute;top:0;left:0;margin-left: 45px;' frameBorder="0" allowFullScreen></iframe>Its You - Ali Gatie</div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ccc1e32d9b.js" crossorigin="anonymous"></script> 
+    <script src="script.js"></script>
+
+</body>
+</html>
